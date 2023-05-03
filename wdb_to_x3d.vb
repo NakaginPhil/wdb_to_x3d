@@ -609,6 +609,7 @@ Friend Module wdb_to_x3d
                     m12 = m12 / sfz
                     m22 = m22 / sfz
 
+					'This function was converted from the java exemplar at http://www.euclideanspace.com/maths/geometry/rotations/conversions/matrixToAngle/
                     If Math.Abs(m01 - m10) < epsilon And Math.Abs(m02 - m20) < epsilon And Math.Abs(m12 - m21) < epsilon Then
                         'singularity found
                         'first check for identity matrix which must have +1 for all terms in leading diagonal and zero in other terms

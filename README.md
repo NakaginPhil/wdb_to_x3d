@@ -5,8 +5,10 @@ There are still many aspects of the .wdb format that I haven't managed to figure
 
 The main console app:
 wdb_to_x3d.vb 
+This includes a function converted from the java exemplar at http://www.euclideanspace.com/maths/geometry/rotations/conversions/matrixToAngle/
 
-Math helper classes used for matrix decomposition. I'm pretty sure I didnt write these from scratch and that they were based heavily on a small part of a much larger library, but can't recall what (at the time I had no intention of releasing this). 
+
+Math helper classes used for matrix decomposition. These were converted from X3DOM js code:
 SFVec3f.vb
 SFMatrix4f.vb
 Quaternion.vb

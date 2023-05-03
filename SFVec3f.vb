@@ -1,4 +1,6 @@
-﻿Public Class SFVec3f
+﻿'Converted from X3DOM js code.
+
+Public Class SFVec3f
     Public Property X As Double
     Public Property Y As Double
     Public Property Z As Double

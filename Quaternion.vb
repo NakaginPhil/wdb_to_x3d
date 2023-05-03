@@ -1,4 +1,6 @@
-﻿Public Class Quaternion
+﻿'Converted from X3DOM js code.
+
+Public Class Quaternion
 
     Public Property X As Double
     Public Property Y As Double

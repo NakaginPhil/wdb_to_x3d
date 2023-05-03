@@ -1,4 +1,6 @@
-﻿Public Class SFMatrix4f
+﻿'Converted from X3DOM js code.
+
+Public Class SFMatrix4f
     Public Property _00 As Double
     Public Property _01 As Double
     Public Property _02 As Double
